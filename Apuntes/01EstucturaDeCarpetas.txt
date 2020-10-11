@@ -1,0 +1,40 @@
+vamos a crear una estructura parecida a la que usamos en laravel
+
+primero sabemos que composer es nuestro mejor amigo xdd!!
+
+asi que los instalamos....
+
+composer init
+
+listo despues realizamos las siguientes configuraciones en nuestro archivo
+
+composer.json
+
+    "autoload": {
+        "psr-4": {
+            "App\\":"app/"
+        },
+        "files": [
+            "app/helpers.php"
+        ]
+    }
+
+
+listo ahora registremos esos cambios
+
+composer dump
+
+lo cual nos crea la carpeta vendor.
+
+creamos la carpeta app 
+dentro carpeta http
+creamos carpeta controllers
+raiz http files response.php y request,php
+en la raiz de la carpeta app
+vim helpers.php
+en la raiz del proyecto
+caroeta views y public
+dentro de public archivo index.php
+
+
+
