@@ -1,0 +1,24 @@
+el objetivo es tener un unico acceso solo por index.php
+patron que nos ayuda a solucionar el problema de acceso unico
+a un sistema web.
+
+necesitamos centralizar todo acceso.
+
+que es ?
+es configurar el index.php para que todo pase por ay
+
+require __DIR__.'/../vendor/autoload.php';
+
+
+front controller
+es basicamente centralizar las peticiones
+no necesitamos mmas en ese archivo
+necesitamos es que ejecute la clase propia de la peticion
+para que resuelva la solicitud del usuario.
+
+php -S localhost:8080
+
+desde nuestra carpeta public ejecutamos
+php -S localhost:8080
+
+listo con eso funciona se realiza la peticion a los controladores

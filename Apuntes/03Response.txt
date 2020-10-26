@@ -1,0 +1,15 @@
+Response.
+
+
+cuando el puerto sale ocupado
+
+ps -ef | grep php
+
+kill -9 9347
+
+
+http://localhost:8080/home/index
+
+
+
+
