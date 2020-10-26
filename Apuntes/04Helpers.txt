@@ -1,0 +1,26 @@
+Los helpers son muy útiles en los proyectos, y más si los usamos con composer, porque ya composer se encarga de requerir a los helpers en nuestros archivos, y nosotros solo tenemos que usarlos.
+
+Y usualmente, al ser funciones, suelen ser mucho más fáciles de recordar y usar.
+
+No obstante, ustedes también pueden definir sus propios helpers en frameworks
+ como Laravel usando funciones comunes que les guste tener en sus proyecto y que les 
+ ayuden en la resolución de problema, yo por ejemplo, tengo un helper especificamente 
+ dedicado a trabajar con fechas en php, otro helper especificamente dedicado a trabajar con 
+ procesamiento de imagenes en PHP y como son cosas comunes que suelo hacer,
+  incluir esos helpers en mis proyectos siempre me son de mucha ayuda 😄
+
+
+
+helper: es un ayudante
+
+parc como el view para mandar la vista en Laravel
+
+
+
+content, etc ,,,,
+
+
+
+crea una funcion sencilla para reutilizarlo en todo lado.
+
+  configuracion realizada desde composer.json

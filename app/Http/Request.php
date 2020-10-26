@@ -55,6 +55,7 @@ class Request
     public function send()
     {
         $ctr = $this->getController();
+
         $acc = $this->getMethod();
         $response = call_user_func([
             new $ctr,
